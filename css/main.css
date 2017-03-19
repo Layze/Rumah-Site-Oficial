@@ -1,0 +1,15 @@
+.navbar .navbar-default{
+  display: inline-block;
+  float: none;
+}
+
+.menu{
+	margin-top: 65px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+.logo{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
