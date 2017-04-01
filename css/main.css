@@ -1,6 +1,6 @@
 .navbar .navbar-default{
-  display: inline-block;
-  float: none;
+  	display: inline-block;
+ 	float: none;
 }
 
 .menu{
@@ -11,5 +11,19 @@
 .logo{
 	margin-bottom: 20px;
 	margin-top: 20px;
+}
+.col-md-4{
+	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+}
+.full-screen {
+ 	background-size: cover;
+  	background-position: center;
+ 	background-repeat: no-repeat;
+}
+
+body {
+	background: none;
 }
 
