@@ -46,7 +46,6 @@
               <li data-target="#sidebar-carousel-1" data-slide-to="7"></li>
               <li data-target="#sidebar-carousel-1" data-slide-to="8"></li>
               <li data-target="#sidebar-carousel-1" data-slide-to="9"></li>
-              <li data-target="#sidebar-carousel-1" data-slide-to="10"></li>
             </ol>
             <div class="carousel-inner">
               <div class="item active">
@@ -101,14 +100,16 @@
                   </div><!--/Carousel--></div>
 
 	</nav>
-	<div ng-include src="'pages/'+ currentPage +'.html'"></div>
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
-	<script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-    </script>
-	<script src="js/jquery.js"></script>
+  <script>
+        // Added this just so I didn't have to wait 5 seconds to see if the transition worked. //
+        $(document).ready(function() {
+            $('#Carousel').carousel({
+                interval:   1000
+            });
+        });
+  </script>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
 	<script src="js/app.js"></script>
 </body>
 
